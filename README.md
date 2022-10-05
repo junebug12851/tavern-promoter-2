@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/1305564/194155718-97511aac-3e3a-4a2b-acc4-8d71fcdf64b0.png)
+
 ## Tavern Promoter 2
 *A Discord bot*
 
@@ -17,6 +19,8 @@ Time isn't given to you in a countdown clock, it's given to you in relative term
 
 **Optional Tips**
 
+![image](https://user-images.githubusercontent.com/1305564/194155930-097a7111-4c33-477e-979c-bd26cc93f583.png)
+
 Enabled by default. Every so often, a Disboard tip will cycle through below the countdown. You'll see messages like
 
 * Letting users new to bumping or Disboard know they can `/bump`
@@ -26,6 +30,8 @@ Enabled by default. Every so often, a Disboard tip will cycle through below the 
 These tips give the user information in a very elegant and simple way, something I feel the Disboard bot bump messages fail at.
 
 **Optional Alternative Disboard Bump Notifications**
+
+![image](https://user-images.githubusercontent.com/1305564/194156240-74960b91-727a-4535-a759-aaadd176a87e.png)
 
 Disabled by default. For people who get tired of seeing the same large Disboard bump message with the same large image at bottom and the weird profile image next to it. This offers a simpler approach:
 
