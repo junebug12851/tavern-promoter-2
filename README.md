@@ -1,7 +1,9 @@
-![image](https://user-images.githubusercontent.com/1305564/194155718-97511aac-3e3a-4a2b-acc4-8d71fcdf64b0.png)
+[![Invite Bot Badge](https://img.shields.io/static/v1?label=Discord%20Bot&message=Invite&color=blue&style=for-the-badge&logo=discord&logoColor=blue)](https://discord.com/api/oauth2/authorize?client_id=1023618399374413987&permissions=277025597440&scope=bot%20applications.commands)
 
 ## Tavern Promoter 2
-*A Discord bot*
+*A Discord bump reminder bot*
+
+![image](https://user-images.githubusercontent.com/1305564/194155718-97511aac-3e3a-4a2b-acc4-8d71fcdf64b0.png)
 
 ### What is this?
 
