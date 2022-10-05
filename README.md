@@ -79,6 +79,34 @@ Your done, it'll just work passively in the background now
 * `/enable-simple-bump` lets you enable or disable alternative bump notifications, replacing the default Disboard ones
 * `/enable-tips` lets you enable or disable the tip system, showing helpful tips on Disboard and your server's disboard listing
 
+### How do I run the code myself?
+
+*Make sure you have `NodeJS` installed, it's the only dependency*
+
+1. Clone or download the repo
+2. Create a bot on the [discord development portal](https://discord.com/developers/applications). There is plenty of help on this through Google and Youtube if you need help.
+3. Copy `.env.template` to a new file called `.env`
+4. Add in the different ids, tokens, secrets, etc... that are blank in the `.env` file, you'll get them from the development portal
+5. Make sure your client id is added to the url at the bottom of the `.env` file
+6. Invite the bot to a server that has the disboard bot on it, the invite url is at the bottom of the `.env` file you made, just copy the url into a browser
+7. Run `npm install` to install dependencies
+8. Run `node .` to begin running the bot, it should work now
+
+### What about production running?
+
+Firstly I reccomend a linux server and secodnly I reccomend using `pm2`, it's a NodeJS package that can handle running bots in production. [click Here](https://pm2.keymetrics.io/docs/usage/quick-start/) for info on how to get started. In short though:
+
+1. `npm install pm2@latest -g`
+2. `pm2 start ecosystem.config.js`
+
+If your on linux, or a supported OS, you can have it automatically startup if the system reboots with
+
+3. `pm2 startup`
+4. It may give you an additional command to run, run it now if it does
+4. `pm2 save`
+
+and your done, it will run in the background. The bot already has a file instructing `pm2` how to run it and the bot is already setup to work with pm2. Any further help please visit the appropriate websites or look through Google and Youtube.
+
 ### What is this licensed?
 
 Apache 2, basically do whatever you want with the code, just make sure to credit me back as original creator, and don't blame me for anything.
