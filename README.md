@@ -41,7 +41,9 @@ Disabled by default. For people who get tired of seeing the same large Disboard 
 
 Some may not like it, but for those who prefer something more minimalistic and not overly large and crowded this works nicely and it pairs very well with the tip system which takes what the disboard bump notification was trying to do, but does it better.
 
-**Cleanup**
+**Auto Cleanup**
+
+![image](https://user-images.githubusercontent.com/1305564/194156791-ac16b166-41b6-4698-bb86-78b4adc4692d.png)
 
 The bot auto-deletes old messages before posting new ones to keep the channel tidy and un-cluttered.
 
