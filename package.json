@@ -1,0 +1,18 @@
+{
+  "name": "tavern-promoter-2",
+  "version": "1.0.0",
+  "description": "Tavern Promoter",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+  },
+  "author": "June Hanabi",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}
