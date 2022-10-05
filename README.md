@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/1305564/194155718-97511aac-3e3a-4a2b-acc4-8d71fcdf64b0.png)
+
 ## Tavern Promoter 2
 *A Discord bot*
 
@@ -17,6 +19,8 @@ Time isn't given to you in a countdown clock, it's given to you in relative term
 
 **Optional Tips**
 
+![image](https://user-images.githubusercontent.com/1305564/194155930-097a7111-4c33-477e-979c-bd26cc93f583.png)
+
 Enabled by default. Every so often, a Disboard tip will cycle through below the countdown. You'll see messages like
 
 * Letting users new to bumping or Disboard know they can `/bump`
@@ -27,6 +31,8 @@ These tips give the user information in a very elegant and simple way, something
 
 **Optional Alternative Disboard Bump Notifications**
 
+![image](https://user-images.githubusercontent.com/1305564/194156240-74960b91-727a-4535-a759-aaadd176a87e.png)
+
 Disabled by default. For people who get tired of seeing the same large Disboard bump message with the same large image at bottom and the weird profile image next to it. This offers a simpler approach:
 
 * It removes the Disboard bump message
@@ -35,7 +41,9 @@ Disabled by default. For people who get tired of seeing the same large Disboard 
 
 Some may not like it, but for those who prefer something more minimalistic and not overly large and crowded this works nicely and it pairs very well with the tip system which takes what the disboard bump notification was trying to do, but does it better.
 
-**Cleanup**
+**Auto Cleanup**
+
+![image](https://user-images.githubusercontent.com/1305564/194156791-ac16b166-41b6-4698-bb86-78b4adc4692d.png)
 
 The bot auto-deletes old messages before posting new ones to keep the channel tidy and un-cluttered.
 
