@@ -25,29 +25,14 @@ module.exports = async function(client, app, env) {
 		// Scan for any guilds offline
 		app.scanOfflineGuilds();
 
-		// Load Saved Guild Data
-		app.loadGuildData();
+		// Get all guilds
+		const guilds = app.data.guilds;
 
-		// Fetch guild bump channels
-		await app.fetchGuildBumpChannels();
-
-		// Get guild bump times
-		await app.getLastBumpTimes();
-
-		// Calculate next bump times
-		app.setNextBumpTimes();
-
-		// Delete countdown messages
-		await app.deleteCountdownMessages();
-
-		// Delete ping messages
-		await app.deletePingMessages();
-
-		// Make new countdown message
-		await app.makeCountdownMessages();
-
-		// Notify users if it's time to
-		await app.notifyMessages();
+		// Boot each one individually
+		for(let i = 0; i < guilds.length; i++) {
+			const guild = guilds[i];
+			await app.bootSingle(guild);
+		}
 
 		// The bot is completely ready for use
 		app.ready = true;

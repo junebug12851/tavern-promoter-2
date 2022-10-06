@@ -20,38 +20,13 @@ const path = require('node:path');
 
 module.exports = function(client, app, env) {
 	try {
-		// Get storage path
-		const folderPath = path.join(process.cwd(), env.STORAGE_FOLDER);
+		// Get all guilds
+		const guilds = app.data.guilds;
 
-		// Read all app files
-		const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.json'));
-
-		// Go through each guild data file
-		for (let i = 0; i < files.length; i++) {
-
-			const fileStr = files[i];
-
-			// Put together path
-			const filePath = path.join(folderPath, fileStr);
-
-			// Import file
-			const file = require(filePath);
-
-			// Get filename without extension
-			const fileName = path.parse(fileStr).name;
-
-			// Get guild associated with this file
-			const guild = app.data.guilds.get(fileName);
-
-			// Skip if no guild is associated
-			if(guild == undefined)
-				continue;
-
-			// Get guild data
-			const data = app.getGuildData(guild);
-
-			// copy saved data in
-			_.assign(data, file);
+		// Load each one individually
+		for(let i = 0; i < guilds.length; i++) {
+			const guild = guilds[i];
+			await app.loadSingleGuildData(guild);
 		}
 	}
 	catch(err) {

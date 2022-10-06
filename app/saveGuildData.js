@@ -20,26 +20,14 @@ const path = require('node:path');
 
 module.exports = async function(client, app, env) {
 	try {
-		// Get Data for all guilds
-		const guildData = app.data.guildData;
+		// Get all guilds
+		const guilds = app.data.guilds;
 
-		// Get storage path
-		const storagePath = path.join(process.cwd(), env.STORAGE_FOLDER);
-
-		// Loop through all guild data
-		_.forOwn(guildData, async function(val, key) {
-			return fsPromise.writeFile(
-				path.join(storagePath, `${key}.json`),
-				JSON.stringify({
-					version: 1,
-					bumpChannelID: val.bumpChannelID,
-					guildName: val.guildName,
-					pingMentions: val.pingMentions,
-					simpleBumpMessages: val.simpleBumpMessages,
-					tipsEnabled: val.tipsEnabled,
-				}, null, 4)
-			);
-		});
+		// Save each one individually
+		for(let i = 0; i < guilds.length; i++) {
+			const guild = guilds[i];
+			await app.saveSingleGuildData(guild);
+		}
 	}
 	catch(err) {
 		console.error(err);
