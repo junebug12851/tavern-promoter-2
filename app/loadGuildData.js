@@ -26,7 +26,7 @@ module.exports = function(client, app, env) {
 		// Load each one individually
 		for(let i = 0; i < guilds.length; i++) {
 			const guild = guilds[i];
-			await app.loadSingleGuildData(guild);
+			app.loadSingleGuildData(guild);
 		}
 	}
 	catch(err) {
