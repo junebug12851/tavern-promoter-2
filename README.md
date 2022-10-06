@@ -1,5 +1,12 @@
 [![Invite Bot Badge](https://img.shields.io/static/v1?label=Discord%20Bot&message=Invite&color=blue&style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/api/oauth2/authorize?client_id=1023618399374413987&permissions=277025597440&scope=bot%20applications.commands)
 
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/junebug12851/tavern-promoter-2?style=flat-square)
+![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/junebug12851/tavern-promoter-2?style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/junebug12851/tavern-promoter-2?style=flat-square)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/junebug12851/tavern-promoter-2)
+![GitHub repo size](https://img.shields.io/github/repo-size/junebug12851/tavern-promoter-2?style=flat-square)
+![Code License](https://img.shields.io/github/license/junebug12851/tavern-promoter-2)
+
 ## Tavern Promoter 2
 *A Discord bump reminder bot*
 
