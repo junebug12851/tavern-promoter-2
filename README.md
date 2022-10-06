@@ -3,9 +3,9 @@
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/junebug12851/tavern-promoter-2?style=flat-square)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/junebug12851/tavern-promoter-2?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/junebug12851/tavern-promoter-2?style=flat-square)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/junebug12851/tavern-promoter-2)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/junebug12851/tavern-promoter-2?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/junebug12851/tavern-promoter-2?style=flat-square)
-![Code License](https://img.shields.io/github/license/junebug12851/tavern-promoter-2)
+![Code License](https://img.shields.io/github/license/junebug12851/tavern-promoter-2?style=flat-square)
 
 ## Tavern Promoter 2
 *A Discord bump reminder bot*
