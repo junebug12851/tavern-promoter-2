@@ -1,4 +1,4 @@
-[![Invite Bot Badge](https://img.shields.io/static/v1?label=Discord%20Bot&message=Invite&color=blue&style=for-the-badge&logo=discord&logoColor=blue)](https://discord.com/api/oauth2/authorize?client_id=1023618399374413987&permissions=277025597440&scope=bot%20applications.commands)
+[![Invite Bot Badge](https://img.shields.io/static/v1?label=Discord%20Bot&message=Invite&color=blue&style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/api/oauth2/authorize?client_id=1023618399374413987&permissions=277025597440&scope=bot%20applications.commands)
 
 ## Tavern Promoter 2
 *A Discord bump reminder bot*
