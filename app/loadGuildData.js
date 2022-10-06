@@ -24,8 +24,8 @@ module.exports = function(client, app, env) {
 		const guilds = app.data.guilds;
 
 		// Load each one individually
-		for(let i = 0; i < guilds.length; i++) {
-			const guild = guilds[i];
+		for(let i = 0; i < guilds.size; i++) {
+			const guild = guilds.at(i);
 			app.loadSingleGuildData(guild);
 		}
 	}

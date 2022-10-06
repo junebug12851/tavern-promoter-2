@@ -24,8 +24,8 @@ module.exports = async function(client, app, env) {
 		const guilds = app.data.guilds;
 
 		// Save each one individually
-		for(let i = 0; i < guilds.length; i++) {
-			const guild = guilds[i];
+		for(let i = 0; i < guilds.size; i++) {
+			const guild = guilds.at(i);
 			await app.saveSingleGuildData(guild);
 		}
 	}
