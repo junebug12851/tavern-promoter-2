@@ -43,9 +43,9 @@ module.exports = async function(client, app, env, guild) {
 		// Make new ping message
 		// Don't bother if nobody is setup to be pinged
 		if(data.pingMentions.length > 0)
-			await data.bumpChannel.send(`${env.NOTIFY_MESSAGE_PREFIX} ${data.pingMentions.join(" ")}`);
+			await data.bumpChannel.send(`${env.NOTIFY_MESSAGE_PREFIX} ${data.pingMentions.join(" ")}, please use \`/bump\` to bump`);
 		else
-			await data.bumpChannel.send(`${env.NOTIFY_MESSAGE_PREFIX} Nobody is setup to be pinged, use \`/addping\` to add people or roles to be pinged when it's time to bump`);
+			await data.bumpChannel.send(`${env.NOTIFY_MESSAGE_PREFIX} please use \`/bump\` to bump. Nobody is setup to be pinged, use \`/addping\` to add people or roles to be pinged when it's time to bump`);
 
 		// Mark notified
 		data.notified = true;
